@@ -7,7 +7,7 @@ public class CatalogValidate {
     public static int inputCatalogId(Scanner sc){
         while (true){
             try {
-                System.out.println("Nập vào Catalog Id");
+                System.out.println("Nhập vào Catalog Id");
                 return Integer.parseInt(sc.nextLine());
             }catch (NumberFormatException e){
                 System.err.println("Bạn cần phải nhập vào là số, vui lòng nhập lại");
